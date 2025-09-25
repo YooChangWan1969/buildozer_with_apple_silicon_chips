@@ -1,4 +1,4 @@
-September 26, 2025
+# September 26, 2025
 
 I had some difficulties packaging a Kivy/KivyMD app for Android using MacOS, so I hope these tips will help someone.
 
@@ -8,14 +8,13 @@ First, I will assume you have installed python==3.11.9, kivy==2.3.1 and kivymd==
 
 Second, install java JDK version 17. THIS IS VERY VERY VERY IMPORTANT. If you made the mistake of installing JDK 20 or above, you got this weird error during buildozer build.
 
-Compile-time name 'JNIUS_PLATFORM' not defined
-
 Next, let's update pip
 
 Third, pip3 install --upgrade pip
 Install buildozer and a couple of dependencies.
 
-You should better using virutalenv!!!
+I think, You should better using virutalenv!!!
+
 mk kivy_venv
 cd kivy_venv
 python3 -m env .venv
