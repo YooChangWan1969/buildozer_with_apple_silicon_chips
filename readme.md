@@ -16,10 +16,15 @@ Install buildozer and a couple of dependencies.
 I think, You should better using virutalenv!!!
 
 mk kivy_venv
+
 cd kivy_venv
+
 python3 -m env .venv
+
 source .venv/bin/activate
+
 pip3 install --upgrade buildozer
+
 python3 -m pip install --upgrade Cython==0.29.33 virutalenv   # THIS IS VERY IMPORTANT USING SPECIFIC VERSION OF Cython LIKE 0.29.33
 
 Now, inside your project's folder, run
