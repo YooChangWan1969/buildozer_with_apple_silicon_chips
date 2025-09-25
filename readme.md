@@ -30,6 +30,7 @@ python3 -m pip install --upgrade Cython==0.29.33 virutalenv   # THIS IS VERY IMP
 Now, inside your project's folder, run
 
 buildozer init
+
 buildozer -v android debug(or release)
 
 THIS IS THE LASTEST of buildozer.spec to follow GOOGLE POLISH.(16K of page size)
