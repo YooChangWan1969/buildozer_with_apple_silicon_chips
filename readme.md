@@ -37,14 +37,23 @@ THIS IS THE LASTEST of buildozer.spec to follow GOOGLE POLISH.(16K of page size)
 --------------------------
 
 [app]
+
 title = your app title
+
 package.name = your app name
+
 package.domain = your app domain
+
 source.dir = .
+
 source.include_exts = py,png,jpg,kv,atlas,ttf,json
+
 source.include_patterns = font/*,images/*.png
+
 source.exclude_exts = spec,txt
+
 source.exclude_dirs = tests, bin, venv, __pycache__
+
 version = your app version
 
 # IF YOU ARE USING PYTHON, KIVY, KIVYMD, BS4, REQUESTS, PLYER, PYJNIUS OLEFILE ETC ... 
