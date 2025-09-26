@@ -56,7 +56,7 @@ source.exclude_dirs = tests, bin, venv, __pycache__
 
 version = your app version
 
-# IF YOU ARE USING PYTHON, KIVY, KIVYMD, BS4, REQUESTS, PLYER, PYJNIUS OLEFILE ETC ... 
+## IF YOU ARE USING PYTHON, KIVY, KIVYMD, BS4, REQUESTS, PLYER, PYJNIUS OLEFILE ETC ... 
 
 requirements = python3,kivy==2.3.1,kivymd==1.2.0,sdl2_ttf,pillow,android,beautifulsoup4,soupsieve,requests==2.31.0,typing_extensions,plyer==2.1.0,pyjnius,olefile==0.47
 
@@ -74,7 +74,7 @@ fullscreen = 0
 
 android.permissions = android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.FOREGROUND_SERVICE
 
-# Android Version Setting
+## Android Version Setting
 android.api = 35
 
 android.minapi = 24
@@ -87,16 +87,16 @@ android.ndk_api = 24
 
 android.private_storage = True
 
-# 16KB Page Size 
+## 16KB Page Size 
 android.archs = arm64-v8a
 
 android.add_linking_options = -Wl,--warn-shared-textrel
 
-# SETTING TO FOLLOW of 16KB Page Size 
+## SETTING TO FOLLOW of 16KB Page Size 
 
 p4a.branch = develop
 
-# Gradle Dependent
+## Gradle Dependent
 
 android.gradle_dependencies = androidx.appcompat:appcompat:1.6.1, androidx.activity:activity:1.6.1
 
@@ -104,15 +104,15 @@ android.enable_androidx = True
 
 android.add_packaging_options = "jniLibs/useLegacyPackaging=true"
 
-# CMake Option Improvement
+## CMake Option Improvement
 
 android.cmake_options = -DCMAKE_POLICY_VERSION_MINIMUM=3.18, -DCMAKE_C_FLAGS="-O2 -fPIC", -DCMAKE_CXX_FLAGS="-O2 -fPIC"
 
-# 16KB Page Size flag
+## 16KB Page Size flag
 
 android.add_gradle_options = android.bundle.enableUncompressedNativeLibs=false
 
-# BIG SIZE DISPLAY SUPPORTING
+## BIG SIZE DISPLAY SUPPORTING
 
 android.allow_backup = True
 
