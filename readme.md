@@ -35,7 +35,7 @@ buildozer -v android debug(or release)
 
 THIS IS THE LASTEST of buildozer.spec to follow GOOGLE POLISH.(16K of page size)
 --------------------------
-
+### This setting is designed to comply with Google’s policy, such as applying a 16KB page size and Android SDK 35 or higher  ###
 [app]
 
 title = your app title
