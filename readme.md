@@ -113,6 +113,7 @@ android.allow_backup = True
 android.allow_cleartext_traffic = True
 
 [buildozer]
+
 log_level = 0
 
 warn_on_root = 1
